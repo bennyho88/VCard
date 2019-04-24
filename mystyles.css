@@ -7,6 +7,8 @@ body {
 li {
     display: inline;
     padding: 15px;
+    border-left: solid #a2ad59 2px;
+
 
 }
 
@@ -20,6 +22,11 @@ ul {
     
     
 }
+
+a:hover {
+    color: red;
+}
+    
 
 nav {
    
@@ -100,4 +107,8 @@ footer {
 button {
     position: relative;
     left: 225px;
+    background-color: #ffd046;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
 }
